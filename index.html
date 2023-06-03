@@ -1,0 +1,54 @@
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="todoapp.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar"> 
+        <h3 id="Logo">Logo</h3>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="bars-icon">
+           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+         </svg>  
+         <div id = "links-container">
+           <a class="link" href="formularios/" target="_blank" rel="noopener noreferrer">Formularios</a>
+           <a class="link" href="fundamentos/" target="_blank" rel="noopener noreferrer">Fundamentos</a>
+           <a class="link" href="../index.html"  rel="noopener noreferrer">Volver</a>
+         </div>    
+    </nav>
+    <main id="main-container">
+        <h1 id="main-title"><span id="title-accent">Todo</span>App</h1>
+        <form class="form">
+            <input class="input" type="text" required title="Agrega tu tarea aqui!" placeholder=" Agregar tareas aquí!">
+            <button class="button" title="Enviar tarea" type="submit"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mas">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                </svg>
+                </button>
+        </form>
+        <ul id="list">
+        </ul>
+        <div id="info">
+            <div class="info">
+                <div class="texto">Tareas hechas:</div>
+                <div class="n">0</div>
+            </div>
+            <div class="info2">
+                <div class="texto">Tareas incompletas:</div>
+                <div class="n2">0</div>
+            </div>
+            <div class="info3">
+                <div class="texto">Tareas totales:</div>
+                <div class="n3">0</div>
+            </div>
+
+        </div>
+    </main>
+    <script src="todoapp.js"></script>
+</body>
+</html>
