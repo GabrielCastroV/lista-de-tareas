@@ -52,7 +52,6 @@ body{
     border-right: 1px solid #334155;
     border-bottom: 2px solid #334155;
     border-top: 1px solid #334155;
-    height: 2.5rem;
     align-items: center;
     border-radius: 0.5rem;
     padding: 0.2rem;
@@ -65,7 +64,6 @@ body{
     border-right: 1px solid #334155;
     border-bottom: 2px solid #334155;
     border-top: 1px solid #334155;
-    height: 2.5rem;
     align-items: center;
     border-radius: 0.5rem;
     padding: 0.2rem;
@@ -74,23 +72,17 @@ body{
 }
 .text{
     width: 10rem;
-    word-wrap: break-word;
-    overflow: auto;
+    word-break: break-all;
     display: flex;
     justify-content: center;
-    height: 2.5rem;
-    max-height: 3rem;
     align-items: center;
     margin: 0;
 }
 .text-checked{
     width: 10rem;
-    word-wrap: break-word;
-    overflow: auto;
+    word-break: break-all;
     display: flex;
     justify-content: center;
-    height: 2.5rem;
-    max-height: 3rem;
     align-items: center;
     margin: 0;
     text-decoration: line-through;
