@@ -231,9 +231,6 @@ body{
         width: 70%; 
         margin: 0 auto;
     }
-    .text{
-        width: 23rem;
-    }
 }
 @media (min-width:1024px) {
     #main-container{
@@ -242,9 +239,6 @@ body{
     .task:hover{
         transform: translateY(-2px);
         }    
-    .text{
-        width: 25rem;
-    }
     #info{
         flex-direction: row;
         justify-content: space-evenly;
